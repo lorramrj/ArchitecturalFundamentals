@@ -17,6 +17,11 @@ namespace OOP
             _voltagem = voltagem;
         }
 
+        public virtual void Testar()
+        {
+            //teste do equipamento
+        }
+
         public abstract void Ligar();
         public abstract void Desligar();
     }
